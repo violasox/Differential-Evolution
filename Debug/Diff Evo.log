@@ -1,0 +1,25 @@
+﻿Build started 8/12/2015 9:39:43 AM.
+     1>Project "C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Diff Evo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Stuido 2013\VC\bin\CL.exe /c /ID:\Documents\RoadRunner\roadrunner /ID:\Documents\RoadRunner\roadrunner\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Diff Evo.cpp"
+         Diff Evo.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\diff evo\diff evo.cpp(251): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\visual studio 2013\projects\diff evo\diff evo.cpp(252): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\visual studio 2013\projects\diff evo\diff evo.cpp(309): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\visual studio 2013\projects\diff evo\diff evo.cpp(310): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\visual studio 2013\projects\diff evo\diff evo.cpp(326): warning C4715: 'Optimization::ChallengeMember' : not all control paths return a value
+       Link:
+         D:\Visual Stuido 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Debug\Diff Evo.exe" /INCREMENTAL /NOLOGO "D:\Documents\RoadRunner\roadrunner\lib\roadrunner-static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Debug\Diff Evo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Debug\Diff Evo.lib" /MACHINE:X86 "Debug\Diff Evo.obj"
+         Debug\stdafx.obj
+     1>Diff Evo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall rr::RoadRunner::RoadRunner(void)" (__imp_??0RoadRunner@rr@@QAE@XZ) referenced in function "public: __thiscall Optimization::Optimization(class rr::RoadRunner,class rr::ExecutableModel *)" (??0Optimization@@QAE@VRoadRunner@rr@@PAVExecutableModel@2@@Z)
+     1>Diff Evo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall rr::RoadRunner::RoadRunner(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class rr::Dictionary const *)" (__imp_??0RoadRunner@rr@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBVDictionary@1@@Z) referenced in function _main
+     1>Diff Evo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rr::RoadRunner::~RoadRunner(void)" (__imp_??1RoadRunner@rr@@UAE@XZ) referenced in function "public: __thiscall Optimization::Optimization(class rr::RoadRunner,class rr::ExecutableModel *)" (??0Optimization@@QAE@VRoadRunner@rr@@PAVExecutableModel@2@@Z)
+     1>Diff Evo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class ls::Matrix<double> const * __thiscall rr::RoadRunner::simulate(class rr::Dictionary const *)" (__imp_?simulate@RoadRunner@rr@@QAEPBV?$Matrix@N@ls@@PBVDictionary@2@@Z) referenced in function "public: double __thiscall Optimization::GetFitness(class std::vector<double,class std::allocator<double> >)" (?GetFitness@Optimization@@QAENV?$vector@NV?$allocator@N@std@@@std@@@Z)
+     1>Diff Evo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class rr::ExecutableModel * __thiscall rr::RoadRunner::getModel(void)" (__imp_?getModel@RoadRunner@rr@@QAEPAVExecutableModel@2@XZ) referenced in function _main
+     1>Diff Evo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class rr::RoadRunner & __thiscall rr::RoadRunner::operator=(class rr::RoadRunner const &)" (__imp_??4RoadRunner@rr@@QAEAAV01@ABV01@@Z) referenced in function "public: __thiscall Optimization::Optimization(class rr::RoadRunner,class rr::ExecutableModel *)" (??0Optimization@@QAE@VRoadRunner@rr@@PAVExecutableModel@2@@Z)
+     1>C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Debug\Diff Evo.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Diff Evo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59

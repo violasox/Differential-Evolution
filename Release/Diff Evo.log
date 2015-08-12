@@ -1,0 +1,20 @@
+﻿Build started 8/12/2015 3:55:32 PM.
+     1>Project "C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Diff Evo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Stuido 2013\VC\bin\CL.exe /c /ID:\Documents\RoadRunner\roadrunner\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Diff Evo.cpp"
+         Diff Evo.cpp
+     1>Diff Evo.cpp(287): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Diff Evo.cpp(288): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Diff Evo.cpp(345): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Diff Evo.cpp(346): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Visual Stuido 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Release\Diff Evo.exe" /INCREMENTAL:NO /NOLOGO D:\Documents\RoadRunner\roadrunner\lib\roadrunner.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Release\Diff Evo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Release\Diff Evo.lib" /MACHINE:X86 /SAFESEH "Release\Diff Evo.obj"
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         Diff Evo.vcxproj -> C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Release\Diff Evo.exe
+     1>Done Building Project "C:\Users\user\Documents\Visual Studio 2013\Projects\Diff Evo\Diff Evo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18
